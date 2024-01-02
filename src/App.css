@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+.headerBrand {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.headerBrand img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.headerText {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.headerText p {
+  color: #000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-decoration:none;
+}
+.textArea{
+  width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
